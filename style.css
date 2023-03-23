@@ -96,7 +96,7 @@ a {
     font-weight: bold;
     font-size: 27px;
     line-height: 27px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
  
 
@@ -286,3 +286,9 @@ a {
    color: rgb(84, 103, 108);
 }
 
+.list-main {
+    margin-top: 0;
+}
+.title-project {
+    padding-top: 5px;
+}
