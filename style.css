@@ -1,0 +1,297 @@
+/* body */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* main */
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0;
+    padding: 40px;
+    /* background-color: #edeff8; */
+}
+
+a {
+    text-decoration-line: inherit;
+}
+
+/* main content */
+.main-content {
+    /* box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1) */
+}
+
+.main-content {
+    /* background-color: #edeff8; */
+    /* background-color: rgb(224, 234, 242); */
+}
+
+.main-content {
+    padding: 105px 90px;
+}
+
+.name {
+    color: #7798a1;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 30px;
+
+
+}
+
+.linia {
+    color: #54676c;
+    margin-top: 5px;
+    font-weight: bold;
+    width: 300px;
+    height: 5px;
+    background-color: #54676c;
+    margin-bottom: 15px;
+
+
+}
+
+.about-user {
+    color: #323435;
+    font-style: italic;
+    font-size: 19px;
+    margin-bottom: 70px;
+    margin-top: 35px;
+    width: 400px;
+}
+
+.main-name {
+    color: #676060;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 27px;
+    margin-bottom: 40px;
+}
+ .name-2 {
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 27px;
+    margin-bottom: 40px;
+}
+
+.name-2 {
+    color: #323435;
+}
+
+.work-3 {
+    margin-bottom: 40px;
+}
+
+.list-main {
+    color: rgb(80, 79, 79);
+    font-style: italic;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.edu-list {
+    color: rgb(59, 59, 59);
+    font-style: italic;
+    font-size: 15px;
+}
+
+.edu-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 40px;
+}
+
+.edu-text {
+    color: rgb(80, 79, 79);
+    font-style: italic;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.edu-name2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 20px;
+    padding: 0;
+
+}
+
+
+
+.link {
+    text-decoration-line: none;
+}
+
+
+
+
+/* sidebar */
+.photo {
+    width: 400px;
+        height: 470px;
+        margin-bottom: 20px;
+        margin-top: 25px;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-right: 40px;
+}
+
+/* sidebar-fon */
+.sidebar-fon {
+    background-color: #b3c0c5;
+    padding-top: 20px;
+    padding-left: 20px;
+    /* width: 700px; */
+    
+   
+    border-radius: 250px 250px 0 0;
+    box-shadow:
+            inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+            0 0 0 2px rgb(255, 255, 255),
+            0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+   
+}
+
+/* contact-style */
+
+.name-title {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    /* line-height: 27px; */
+    margin-bottom: 10px;
+    height: 35px;
+    
+    margin-left: 15px;
+    
+    background-color: rgb(84, 103, 108);
+    box-shadow:
+            inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+            0 0 0 2px rgb(255, 255, 255),
+            0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    
+    
+}
+
+.image_svg {
+    margin-left: 50px;
+    padding: 10;
+
+
+
+}
+.contact-style {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 10px;
+    color: aliceblue;
+    /* box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1) */
+}
+.contact-style {
+    /* background-color: #7798a1; */
+
+}
+
+.contact-style {
+    margin-bottom: 30px;
+}
+
+.contact-item {
+    padding: 0;
+    margin-left: 0;
+    
+}
+
+
+/* contact-style {
+    margin-bottom: 30px;
+    margin-top: 50px;
+
+} */
+
+/* .number {
+    font-weight: normal;
+    font-size: 12px;
+    margin-top: 0;
+    padding-left: 5px;
+    text-decoration: none;
+} */
+
+.number-link {
+    color: #FFFFFF;
+    font-size: 18px;
+    text-decoration: none;
+    padding-left: 20px;
+    /* position: relative; */
+
+   
+}
+
+.number-link::before {
+     content: '';
+     /* position: absolut; */
+     background-image: url("./img/call.svg");
+     width: 30px;
+     height: 30px;
+     left: 0;
+
+ }
+
+
+
+  
+/* .number-link {
+    color: #FFFFFF;
+    font-size: 14px;
+    text-decoration: none;
+    
+    &::before {
+         content: '';
+
+    }
+
+
+} */
+
+.often {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+
+.name-title2 {}
+
+.mame-title3 {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+
+.list-text {
+    font-weight: normal;
+    font-size: 14px;
+
+
+}
+
+
+
+.list-tesh {
+    padding: 0;
+
+}
