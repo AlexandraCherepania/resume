@@ -18,8 +18,20 @@ body {
             0 0 0 2px rgb(255, 255, 255),
             0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
     
-    /* background-color: #edeff8; */
+    
 }
+
+.main-content {
+
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+
+
+    padding: 5px 5px
+}
+
 .main-content-text {
     padding-left: 50px;
 }
@@ -32,18 +44,7 @@ a {
     padding-bottom: 20px;
 }
 
-.main-content {
 
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row-reverse;
-    justify-content: center;
-    
-    
-    padding: 5px 5px
-    
-     
-}
 
 .name {
     color: rgb(84, 103, 108);
@@ -98,21 +99,29 @@ a {
     margin-bottom: 40px;
 }
  
-.name-title {
 
+
+.name-title {
+    color: #FFFFFF;
     font-style: normal;
     font-weight: bold;
-    font-size: 15px;
-    line-height: 27px;
-    margin-bottom: 40px;
+    font-size: 30px;
+    /* line-height: 27px; */
+    margin-bottom: 10px;
+    height: 35px;
+
+    margin-left: 15px;
+
+    background-color: rgb(84, 103, 108);
+    box-shadow:
+        inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+
+
 }
 
 
-
-.education_list {
-    margin-bottom: 15px;
-    padding-bottom: 15px;
-}
 
 .contacts__icon-hit {
     fill:rgb(84, 103, 108);
@@ -135,58 +144,12 @@ a {
 }
 
 
-.list-main {
-    color: rgb(80, 79, 79);
-    font-style: normal;
-    font-size: 15px;
-    font-weight: bold;
-
-}
-
-.edu-list {
-    color: rgb(59, 59, 59);
-    font-style: italic;
-    font-size: 15px;
-}
-
-.edu-name {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 27px;
-    margin-bottom: 40px;
-}
-
-.edu-text {
-    color: rgb(80, 79, 79);
-    font-style: italic;
-    font-size: 15px;
-    font-weight: bold;
-}
-
-.edu-name2 {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 27px;
-    margin-bottom: 20px;
-    padding: 0;
-
-}
 
 
 
+/* SIDEBAR */
 
 
-
-
-
-
-
-
-
-
-/* sidebar-fon */
 .sidebar-fone {
     background-color: #b3c0c5;
     padding-top: 20px;
@@ -202,32 +165,12 @@ a {
    
 }
 
-/* contact-style */
-
-.name-title {
-    color: #FFFFFF;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    /* line-height: 27px; */
-    margin-bottom: 10px;
-    height: 35px;
-    
-    margin-left: 15px;
-    
-    background-color: rgb(84, 103, 108);
-    box-shadow:
-            inset 0 -3em 3em rgba(0, 0, 0, 0.1),
-            0 0 0 2px rgb(255, 255, 255),
-            0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
-    
-    
-}
 
 
 
 
-/* SIDEBAR */
+
+
 
 .sidebar {
     background-color: #b3c0c5;
@@ -294,18 +237,12 @@ a {
     margin-right: 10px;
 }
 
-/* .soft_skills {
-    margin-top: 50px;
-} */
+
 
 .contacts {
     margin-bottom: 50px;
 }
 
-/* .tech_skills {
-    list-style: none;
-    margin-bottom: 45;
-} */
 
 .sidebar_title {
     color: #ffffff;
@@ -349,11 +286,3 @@ a {
    color: rgb(84, 103, 108);
 }
 
-
-
-
-.soft_skills_text {
-    color: #ffffff;
-    font-size: 18px;
-    line-height: 27px;
-}
